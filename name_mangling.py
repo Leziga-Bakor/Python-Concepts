@@ -16,6 +16,11 @@ def main():
     a.__count = 42
     print(a.get_count())
 
+    print(a.__count)
+
+    a.set_count(50)
+    print(a.get_count())
+
     print(a.__dict__)
 
 
